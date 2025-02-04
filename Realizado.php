@@ -26,8 +26,9 @@ $resultados = $stmt->fetchAll(PDO::FETCH_ASSOC); // Recupera os dados como um ar
 
     <h2>Lista de Cadastros</h2>
     <div style="display: flex; align-items: flex-start;">
-        <table border="1" style="margin-top: 50px; margin-left: -75px;">
-            <button type="button" onclick="window.location.href = 'index.html';" class="button-link">Cadastrar</button>
+        <table border="1" style="margin-top: 50px; margin-left: -175px;">
+            <button type="button" onclick="window.location.href = 'index.html';" class="button-link">Cadastrar</button> <button type="button" onclick="window.location.href = 'consultaCep/ConsultaCep.php';" class="button-link">Consultar Cep</button><br>
+
 
             <thead>
                 <tr>
